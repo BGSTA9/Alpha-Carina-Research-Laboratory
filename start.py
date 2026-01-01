@@ -38,7 +38,7 @@ class AlphaCarinaResearch(Scene):
         # 3. Research-Heavy Typography
         # Using a monospaced "technical" font feel for the secondary text
         text_main = Text("ALPHA CARINA", weight=BOLD, font="Courier New").scale(0.8)
-        text_sub = Text("SYSTEMS & RESEARCH LABORATORY\nFACILITY ID: 76F-3C8 // ALPHA SECTOR", 
+        text_sub = Text("", 
                         font="Courier New", line_spacing=1.2).scale(0.35)
         text_group = VGroup(text_main, text_sub).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
         text_group.move_to(RIGHT * 3.2 + DOWN * 2.2)
