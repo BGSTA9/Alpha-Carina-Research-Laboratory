@@ -50,8 +50,8 @@ class aCarina(ThreeDScene):
         path.set_points_as_corners(pts)
         
         # --- 4. THE GLITCH TITLE FUNCTION ---
-        title = Text("ALPHA CARINA", font="Orbitron", weight=BOLD).scale(0.8)
-        subtitle = Text("SYSTEMS & RESEARCH LABORATORY", font="Monospace").scale(0.3)
+        title = Text("ALPHA CARINA", font="Lato", weight=BOLD).scale(0.8)
+        subtitle = Text("RESEARCH LABORATORY", font="Monospace").scale(0.3)
         branding = VGroup(title, subtitle).arrange(DOWN, aligned_edge=LEFT).move_to(RIGHT*3 + DOWN*2)
         
         def glitch_effect(mob):
