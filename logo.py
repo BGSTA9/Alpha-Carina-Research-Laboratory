@@ -64,4 +64,4 @@ class aCarina(ThreeDScene):
                 FadeIn(mob, run_time=0.1, color=WHITE)
             )
 
-        # --- 5. ANIMATION SEQUENCE ---
+        # --- 5. ANIMATION SEQUENCE --
