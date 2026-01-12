@@ -1,0 +1,10 @@
+from manim import *
+import numpy as np
+
+class LogoIdentity(Scene):
+    def construct(self):
+        self.camera.background_color = BLACK
+        self.add(Dot())# Canonical, reproducible generator
+source /Users/soheilsanati/Downloads/Alpha-Carina-Research-Laboratory/aCarina/bin/activate
+source /Users/soheilsanati/Downloads/Alpha-Carina-Research-Laboratory/aCarina/bin/activate
+
